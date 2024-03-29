@@ -1,0 +1,6 @@
+During Java application development, we need to read the contents of a file into a string in many situations such as processing configuration files, parsing data, or handling text-based resources.
+In this Java tutorial, we will explore different ways to read a text file into String in Java from traditional BufferedReader, new APIs in Java 8 and 11 to third-party libraries such as Apache Commons Lang and Guava.
+The lines() method reads all lines from a file into a Stream. The Stream is populated lazily when the stream is consumed.
+Bytes from the file are decoded into characters using the specified charset.
+The returned stream contains a reference to an open file. The file is closed by closing the stream.
+The file contents should not be modified during the reading process, or else the result is undefined.
